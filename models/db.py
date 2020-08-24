@@ -187,7 +187,7 @@ db.define_table('Actividad',
     Field('FechaFin', 'date', label=T('END DATE'), default=request.now),                                          #pEnd:
     #Field('FechaFin', 'date', label=T('END DATE'), requires = IS_DATE(format=('%d/%m/%Y'))),                                          #pEnd:
     #Field('FechaFin', 'date', label=T('END DATE'), requires = IS_DATE(format=('%Y-%m-%d'))),                                          #pEnd:
-    Field('Comentario', 'text', label=T('COMMENTS')),
+    #Field('Comentario', 'text', label=T('COMMENTS')),
     Field('Evidencia', 'upload', label=T('EVIDENCE')),
     Field('Visible', 'boolean', label=T('VISIBLE')),
     Field('Milestone', 'boolean', label=T('MILESTONE'), comment=T('Indicates whether this is a milestone task - Numeric; 1 = milestone, 0 = not milestone')),                                      #pMile

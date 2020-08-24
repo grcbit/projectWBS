@@ -37,7 +37,6 @@
     <td>{{=T('Status')}}</td>
     <td>{{=T('Initial Date')}}</td>
     <td>{{=T('Final Date')}}</td>
-    <td>{{=T('Comments')}}</td>
     <td>{{=T('To Do')}}</td>
     <td>{{=T('Doing')}}</td>
     <td>{{=T('Done')}}</td>
@@ -55,18 +54,17 @@
       <td>{{=i[4]}}</td>
       <td>{{=i[5]}} %</td>
       <td>{{=i[6]}}</td>
-      <td>{{=i[7]}}</td>
+      <td>{{=i[7]}}</td> <!-- final date -->
       <td>{{=i[8]}}</td>
       <td>{{=i[9]}}</td>
       <td>{{=i[10]}}</td>
-      <td>{{=i[11]}}</td>
       <td>
-        {{for x in i[12]:}}
+        {{for x in i[11]:}}
           <a href="{{=x}}">File</a><br>
         {{pass}}
       </td>
       <td>
-      {{for x in i[13]:}}
+      {{for x in i[12]:}}
       {{=x}}
       {{pass}}
       </td>

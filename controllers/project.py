@@ -52,7 +52,7 @@ def projectGantt():
         tarea.append(i.Avance)
         tarea.append(i.FechaInicio)
         tarea.append(i.FechaFin)
-        tarea.append(i.Comentario)
+        #tarea.append(i.Comentario)
         tarea.append(i.Pendiente)
         tarea.append(i.EnProgreso)
         tarea.append(i.Completado)
